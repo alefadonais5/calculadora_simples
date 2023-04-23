@@ -1,38 +1,16 @@
 # calculadora_simples
-operacao = 0
-num1 = float(input("Digite o primeiro número: "))
-num2 = float(input("Digite o segundo número: "))
 
-while operacao != 6:
+Desenvolvi esta calculadora com o fim de entender e aprender o uso de Python.
 
-    operacao = float(input("1. para soma: \n"
-                           "2. para subtração: \n"
-                           "3. para multiplicação: \n"
-                           "4. para divisão: \n"
-                           "5. para digitar um novo número: "
-                           "6. para sair: "))
-    while True:
+1 - O usuário digita o primeiro número
+2 - O usuário digita o segundo número
+3 - Em seguida terá as seguintes opções:
 
-        if operacao == 1:
-            print("A soma é igual a: ", num1+num2)
+	1   . para soma:     
+        2. para subtração: 
+        3. para multiplicação: 
+        4. para divisão: 
+        5. para digitar um novo número: 
+        6. para sair: 
 
-            break
-        elif operacao == 2:
-            print("A subtração é igual a: ", num1-num2)
-            break
-
-        elif operacao == 3:
-            print("A multiplicação é igual a: ", num1*num2)
-            break
-
-        elif operacao == 4:
-            print("A divisão é igual a: ", num1/num2)
-
-        elif operacao == 5:
-            num1 = float(input("Digite o primeiro número: "))
-            num2 = float(input("Digite o segundo número: "))
-            break
-        elif operacao == 6:
-            print("Programa encerrado.")
-            break
-    break
+4 - Após isso será executado o comando escolhido pelo o usuário.
